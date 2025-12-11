@@ -7,6 +7,7 @@
     <meta name="description" content="Parque Tecnológico Cartagena - El hub de innovación Web3 y startups en el Caribe." />
     <meta name="keywords" content="Parque Tecnológico Cartagena, Innovación web3 Cartagena, Startups Cartagena, Coworking, Inversión" />
     <title>Cartagena Tech Park | Hub de Innovación</title>
+    <!-- Keeping Tailwind CDN for simplicity in this setup, though CSS file generation is preferred for prod -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,6 +47,8 @@
     "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
     "react/": "https://esm.sh/react@^19.2.1/",
     "react": "https://esm.sh/react@^19.2.1",
+    "vite": "https://esm.sh/vite@^7.2.7",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
     "lucide-react": "https://esm.sh/lucide-react@^0.560.0"
   }
 }
@@ -53,5 +56,6 @@
 </head>
   <body class="bg-slate-50 text-slate-900">
     <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
