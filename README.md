@@ -20,7 +20,7 @@ Una landing page moderna y minimalista diseñada para posicionar al **Parque Tec
 
 El proyecto está construido utilizando las últimas tecnologías para el desarrollo web moderno:
 
-- **React 19**: Biblioteca principal para la construcción de la interfaz de usuario.
+- **React 18**: Biblioteca principal para la construcción de la interfaz de usuario.
 - **TypeScript**: Para un código robusto, tipado y mantenible.
 - **Tailwind CSS**: Framework de utilidad para el diseño y estilizado rápido y consistente.
 - **Lucide React**: Biblioteca de iconos ligeros y modernos.
